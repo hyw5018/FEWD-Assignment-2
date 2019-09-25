@@ -1,0 +1,171 @@
+
+
+
+body{
+	font-family:"open sans";
+}
+header{
+	display:flex;
+	height:100VH;
+	width:100VW;
+	background-image:url("../images/header_bg.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	flex-direction:column;
+	color:white;
+}
+
+.title1{
+	text-align:left;
+	position:relative;
+	margin-top:15vh;
+	margin-left:36vw;
+	font-size:24px;
+	font-weight:800;
+}
+.coverpage{
+	text-align:center;
+	position:relative;
+	margin-top:10vh;
+	margin-left:5vw;
+	font-size:24px;
+	font-weight:600;
+}
+
+.getinnow{
+	text-align:center;
+	position:relative;
+	margin-top:10vh;
+	margin-left:47vw;
+	font-size:14px;
+	font-weight:600;
+	border-radius:5px;
+	background:#f9e42e;
+	color:black;
+	width:8%;
+	height:3%;
+	padding:15px 15px;
+	display:inline-block;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+section{
+	display:flex;
+	background-color:#f0efef;
+	height:80vh;
+	width:100vw;
+	flex-direction:column;
+}
+
+.title2{
+	position:relative;
+	margin-top:20vh;
+	margin-left:36vw;
+	font-size:20px;
+	font-weight:600;
+}
+
+.benefits{
+	position:relative;
+	width:30%;
+	margin-top:3vh;
+	margin-left:36vw;
+	font-size:13px;
+	font-weight:300;
+}
+
+
+footer{
+	display:flex;
+	height:100%;
+	width:100%;
+	flex-direction:column;
+}
+
+.quote{
+	background-image:url("../images/testimonial_bg.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:294px;
+}
+
+.quote1{
+	color:white;
+	text-align:center;
+	font-weight:300;
+	font-style:italic;
+	font-size:18px;
+	margin-top:10vh;
+	margin-left:38vw;
+	width:20em;
+}
+
+.quote2{
+	margin-top:3vh;
+	margin-left:44.5vw;
+	width:20em;
+	font-size:18px;
+	font-weight:600;
+	color:white;
+}
+
+.container1{
+	background-color:#f9e42e;
+	height:10vH;
+	width:100VW;
+}
+
+.signup{
+	color:white;
+	font-size:12px;
+	font-weight:800;
+	background-color:#033048;
+	border-radius:5px;
+	width:8%;
+	height:25%;
+	padding:15px 15px;
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+	cursor:pointer;
+	margin-left:44.5vw;
+	margin-top:1.5vh;
+}
+
+.container2{
+	background-color:#121212;
+}
+
+.relaxr{
+	font-size:24px;
+	font-weight:800;
+	color:#f9e42e;
+	text-align:center;
+	margin-top:5vh;
+}
+
+.logo{
+	display:flex;
+	justify-content:center;
+	margin-top:3vh;
+	margin-left:47vw;
+	width:30px;
+}
+
+img{
+	padding-left:45px;
+}
+
+.copyright{
+	text-align:center;
+	margin-top:5vh;
+	margin-bottom:30px;
+	width:100vw;
+	color:white;
+	font-size:9px;
+	font-weight:600;
+
+}
